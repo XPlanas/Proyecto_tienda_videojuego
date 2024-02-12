@@ -1,3 +1,10 @@
+
+:root {
+    --primary-color: #42D9F7;
+    --background-color: #031426;
+    --dark-color: #04070C;
+}
+
 h1{
     font-family: 'Honk', system-ui;
 }
