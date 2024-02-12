@@ -11,10 +11,15 @@ h1{
 body{
     background-color: #031426;
 }
-.logo{
+#logo{
     display: flex;
-    max-width: 4vw;
-}
+    justify-content: left;
+    } 
+#logo img{
+    margin: 0;
+    width: 16vw;
+    height: auto;    
+    } 
 .all-products{
     display: flex;
     flex-direction: column;
