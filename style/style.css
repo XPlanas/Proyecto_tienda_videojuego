@@ -42,6 +42,7 @@ body{
 
 .container-img img{
     width: 100%;
+    overflow: hidden;
 }
 
 .content-card-product{
