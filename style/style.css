@@ -4,3 +4,7 @@ h1{
 body{
     background-color: #15151a;
 }
+.logo{
+    display: flex;
+    max-width: 7vw;
+}
