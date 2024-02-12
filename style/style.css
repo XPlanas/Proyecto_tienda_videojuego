@@ -6,7 +6,7 @@ body{
 }
 .logo{
     display: flex;
-    max-width: 7vw;
+    max-width: 4vw;
 }
 .all-products{
     display: flex;
