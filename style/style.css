@@ -80,35 +80,25 @@ body{
     gap: 2rem;
 }
 
-.category-ritmo{
-    background-image: linear-gradient(#00000080, #00000080), url(/imgs/news/Guitardude.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.category-ritmo img{
+    width: 100%;
+    overflow: hidden;
 }
-.category-category-2{
-    background-image: linear-gradient(#00000080, #00000080), url(/imgs/news/Iluminatis.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.category-rol img{
+    width: 100%;
+    overflow: hidden;
 }
-.category-category-3{
-    background-image: linear-gradient(#00000080, #00000080), url(/imgs/news/LEGOLOS.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.category-category-3 img{
+    width: 100%;
+    overflow: hidden;
 }
-.category-rpg{
-    background-image: linear-gradient(#00000080, #00000080), url(/imgs/news/knights.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.category-rpg img{
+    width: 100%;
+    overflow: hidden;
 }
-.category-arcade{
-    background-image: linear-gradient(#00000080, #00000080), url(/imgs/news/menu.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.category-arcade img{
+    width: 100%;
+    overflow: hidden;
 }
 
 .all-products{
