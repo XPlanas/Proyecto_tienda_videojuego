@@ -79,26 +79,29 @@ body{
     border-radius: 2rem;
     gap: 2rem;
 }
+.card-category p{
+    color: #fff;
+}
 
 .category-ritmo img{
-    width: 20rem;
+    width: 18%;
     overflow: hidden;
 }
 .category-rol img{
-    width: 20rem;
+    width: 18%;
     overflow: hidden;
 }
 .category-category-3 img{
-    width: 20rem;
+    width: 18%;
     overflow: hidden;
 }
 
 .category-rpg img{
-    width: 20rem;
+    width: 18%;
     overflow: hidden;
 }
 .category-arcade img{
-    width: 20rem;
+    width: 18%;
     overflow: hidden;
 }
 
