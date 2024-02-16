@@ -6,6 +6,12 @@
 }
 
 /* MENÚ PRINCIPAL -------- */
+#cabecera {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 #menu-principal {
     width: 100%;
     line-height: 2rem;
