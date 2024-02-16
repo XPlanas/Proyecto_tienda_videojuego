@@ -71,7 +71,7 @@ body{
 }
 
 .card-category{
-    height: 30rem;
+    height: 20rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -81,23 +81,24 @@ body{
 }
 
 .category-ritmo img{
-    height: 30rem;
+    width: 20rem;
     overflow: hidden;
 }
 .category-rol img{
-    height: 30rem;
+    width: 20rem;
     overflow: hidden;
 }
 .category-category-3 img{
-    height: 30rem;
+    width: 20rem;
     overflow: hidden;
 }
+
 .category-rpg img{
-    height: 30rem;
+    width: 20rem;
     overflow: hidden;
 }
 .category-arcade img{
-    height: 30rem;
+    width: 20rem;
     overflow: hidden;
 }
 
@@ -116,10 +117,7 @@ body{
 }
 
 .card-product{
-    background-color: var(--dark-color);
-    border-radius: 2rem;
     cursor: pointer;
-    box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
 }
 
 .container-img{
