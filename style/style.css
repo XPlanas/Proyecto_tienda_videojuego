@@ -79,6 +79,9 @@ body{
     border-radius: 2rem;
     gap: 2rem;
 }
+.card-category P{
+color: aliceblue;
+}
 
 .category-ritmo img{
     width: 20rem;
