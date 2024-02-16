@@ -127,6 +127,7 @@ body{
 .container-img img{
     width: 100%;
     overflow: hidden;
+    border-radius: 1rem;
 }
 
 .content-card-product{
