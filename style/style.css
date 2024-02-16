@@ -58,18 +58,49 @@ body{
 
 .container-categories{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 1rem;
 }
 
 .card-category{
-    height: 50rem;
+    height: 30rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     border-radius: 2rem;
     gap: 2rem;
+}
+
+.category-ritmo{
+    background-image: linear-gradient(#00000080, #00000080), url(../imgs/news/Guitardude.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.category-category-2{
+    background-image: linear-gradient(#00000080, #00000080), url(../imgs/news/Iluminatis.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.category-category-3{
+    background-image: linear-gradient(#00000080, #00000080), url(../imgs/news/LEGOLOS.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.category-rpg{
+    background-image: linear-gradient(#00000080, #00000080), url(../imgs/news/knights.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.category-arcade{
+    background-image: linear-gradient(#00000080, #00000080), url(../imgs/news/menu.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .all-products{
