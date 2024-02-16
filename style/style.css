@@ -42,12 +42,36 @@ body{
 #logo{
     display: flex;
     justify-content: left;
-    } 
+} 
 #logo img{
     margin: 0;
     width: 10vw;
     height: auto;    
-    } 
+}
+
+.all-categories{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.container-categories{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.card-category{
+    height: 50rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+    gap: 2rem;
+}
+
 .all-products{
     display: flex;
     flex-direction: column;
