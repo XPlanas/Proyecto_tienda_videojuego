@@ -49,7 +49,7 @@ body{
     height: auto;    
 }
 
-.all-categories{
+.allcategories{
     display: flex;
     flex-direction: column;
     gap: 2rem;
