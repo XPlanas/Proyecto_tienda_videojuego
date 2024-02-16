@@ -118,7 +118,7 @@ body{
     flex-direction: column;
     gap: 2rem;
     margin-bottom: 3rem;
-    padding: 2.5rem;
+    padding: rem;
 }
 
 .container-product{
@@ -128,8 +128,6 @@ body{
 }
 
 .card-product{
-    background-color: var(--dark-color);
-    border-radius: 2rem;
     cursor: pointer;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
 }
@@ -141,6 +139,7 @@ body{
 .container-img img{
     width: 100%;
     overflow: hidden;
+    border-radius: 2rem;
 }
 
 .content-card-product{
