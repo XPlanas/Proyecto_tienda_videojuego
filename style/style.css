@@ -81,23 +81,23 @@ body{
 }
 
 .category-ritmo img{
-    background-size: cover;
+    height: 30rem;
     overflow: hidden;
 }
 .category-rol img{
-    background-size: cover;
+    height: 30rem;
     overflow: hidden;
 }
 .category-category-3 img{
-    background-size: cover;
+    height: 30rem;
     overflow: hidden;
 }
 .category-rpg img{
-    background-size: cover;
+    height: 30rem;
     overflow: hidden;
 }
 .category-arcade img{
-    background-size: cover;
+    height: 30rem;
     overflow: hidden;
 }
 
