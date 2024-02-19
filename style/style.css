@@ -5,13 +5,19 @@
     --dark-color: #04070C;
 }
 
+/* CABECERA ------------ */
+#cabecera {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 /* MENÚ PRINCIPAL -------- */
 #menu-principal {
-    width: 100%;
-    line-height: 2rem;
-    margin-left: 100px;
-  }
-  
+  width: 100%;
+  line-height: 2rem;
+}
+ 
   #menu-principal li {
     display: inline;
     list-style-type: none;
@@ -34,16 +40,13 @@
     display: none;
   }
 
-#usuario {
-    margin-right: 20px;
-}
-
 h1{
     font-family: 'Honk', system-ui;
 }
 body{
     background-color: #031426;
     font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }
 
 #logo{
@@ -79,8 +82,8 @@ body{
     border-radius: 2rem;
     gap: 2rem;
 }
-.card-category p{
-    color: #fff;
+.card-category P{
+color: aliceblue;
 }
 
 .category-ritmo img{
@@ -204,6 +207,11 @@ footer {
 
 @media (max-width: 768px) {
 
+    
+  #logo img {
+    width: 100px;
+  }
+    
     #menu-principal a {
         display: none;
     }
