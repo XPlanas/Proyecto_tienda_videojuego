@@ -8,14 +8,13 @@
 /* CABECERA ------------ */
 #cabecera {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
 }
 
 /* MENÚ PRINCIPAL -------- */
 #menu-principal {
   width: 100%;
-  line-height: 2rem;
 }
  
   #menu-principal li {
