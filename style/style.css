@@ -5,13 +5,19 @@
     --dark-color: #04070C;
 }
 
+/* CABECERA ------------ */
+#cabecera {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 /* MENÚ PRINCIPAL -------- */
 #menu-principal {
-    width: 100%;
-    line-height: 2rem;
-    margin-left: 100px;
-  }
-  
+  width: 100%;
+  line-height: 2rem;
+}
+ 
   #menu-principal li {
     display: inline;
     list-style-type: none;
@@ -33,10 +39,6 @@
   #menu-principal .icon {
     display: none;
   }
-
-#usuario {
-    margin-right: 20px;
-}
 
 h1{
     font-family: 'Honk', system-ui;
@@ -205,6 +207,11 @@ footer {
 
 @media (max-width: 768px) {
 
+    
+  #logo img {
+    width: 100px;
+  }
+    
     #menu-principal a {
         display: none;
     }
