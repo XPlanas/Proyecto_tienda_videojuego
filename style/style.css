@@ -141,9 +141,12 @@ color: aliceblue;
     border-radius: 1rem;
 }
 
+/* SOBRE NOSOTROS */
+#imagen-about img {
+  width: 100%;
+}
 
 /* FORMULARIO LOGIN */
-
 #form-login {
   color: rgb(255, 255, 211);
   display: flex;
