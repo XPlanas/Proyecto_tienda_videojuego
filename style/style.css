@@ -41,9 +41,10 @@ color: #42d9f7;
 display: none;
 }
 
-h1{
+h1, h2{
     font-family: 'Honk', system-ui;
 }
+
 body{
     background-color: #031426;
     font-family: Arial, Helvetica, sans-serif;
