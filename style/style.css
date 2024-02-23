@@ -162,6 +162,36 @@ color: aliceblue;
     color: var(--primary-color);
 }
 
+/* FORMULARIO LOGIN */
+
+#form-login {
+  color: rgb(255, 255, 211);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+  width: 480px;
+  gap: 1rem;
+}
+
+#botonesconfirmar {
+  display: flex;
+  justify-content: end;
+  gap: 1rem;
+}
+
+/* PÁGINAS POLÍTICAS PRIVACIDAD, TÉRMINOS, COOKIES */
+
+.texto-legal {
+  padding: 5%;
+  color: white;
+  line-height: 1.5rem;
+}
 
 /* FOOTER ---------------  */
 footer {
