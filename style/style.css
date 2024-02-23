@@ -11,7 +11,9 @@
   align-items: flex-start;
   justify-content: space-between;
 }
-
+.elemento-cabecera{
+    padding-top:50px;
+}
 /* MENÚ PRINCIPAL -------- */
 #menu-principal {
   width: 100%;
@@ -55,7 +57,7 @@ body{
 
 #logo img{
     margin: 0;
-    width: 10vw;
+    width: 13vw;
     height: auto;    
 }
 .container.trailer {
