@@ -300,10 +300,12 @@ footer {
 } */
 /* prueba */
 .topnav {
+    display: flex;
     overflow: hidden;
     background-color: background-color;
     margin-top: 50px;
     width: 100vw;
+    justify-content: end;
   }
   
   .topnav a {
