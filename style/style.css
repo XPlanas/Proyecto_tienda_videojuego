@@ -43,6 +43,7 @@ display: none;
 
 h1, h2{
     font-family: 'Honk', system-ui;
+    font-size: 3rem;
 }
 
 body{
