@@ -51,7 +51,6 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
-
 #logo{
     display: flex;
     justify-content: left;
@@ -67,29 +66,33 @@ body{
   flex-direction: column;
   align-items: center;
   width: 70%;
+  
   margin: 0 auto;
 }
 
-.imagen-trailer img {
-  width: 100%;
-  height: auto;
-  margin-bottom: 10px;
-}
+
 
 .content-trailer {
   text-align: center;
 }
 
 .content-trailer p {
-  font-size: 20px;
+  font-size: 3rem;
   font-weight: bold;
-  margin-bottom: 5px;
 }
-
-
+.content-trailer h1 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.content-trailer iframe {
+  width: 60rem;
+  height: 34rem;
+  margin-bottom: 10px;
+}
 .content-trailer a {
   display: inline-block;
-  font-size: 16;
+  font-family: 'Honk', system-ui;
+  font-size: 2rem;
   padding: 10px 20px;
   color: #fff;
   text-decoration: none;
@@ -115,17 +118,17 @@ body{
 color: aliceblue;
 }
 .all-products{
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    margin-bottom: 3rem;
-    padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2.5rem;
 }
 
 .container-product{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-    gap: 3rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+  gap: 3rem;
+  margin-bottom: 3rem;
 }
 
 
