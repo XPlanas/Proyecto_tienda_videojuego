@@ -128,9 +128,6 @@ color: aliceblue;
     gap: 3rem;
 }
 
-.card-product{
-    cursor: pointer;
-}
 
 .container-img{
     position: relative;
