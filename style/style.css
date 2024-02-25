@@ -298,7 +298,7 @@ footer {
     text-align: center;
 }
 
-#enlaces-redes {
+#enlaces-redes ul {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
