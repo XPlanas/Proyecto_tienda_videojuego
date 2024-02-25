@@ -346,6 +346,7 @@ footer {
     position: absolute;
     right: 0;
     top: 0;
+    flex-direction: column;
   }
   .topnav.responsive a {
     float: none;
