@@ -243,6 +243,31 @@ color: aliceblue;
   gap: 1rem;
 }
 
+/* LOCALIZADOR TIENDAS */
+
+.contenido-mapa {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+#codigopostal {
+  width: 300px;
+  line-height: 2rem ;
+}
+#mapa-buscar {
+  line-height: 2rem;
+  padding: 0.2rem 1rem;
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  border-style: none;
+}
+
+#mapa-buscar:hover {
+  background-color: rgb(255, 52, 245);
+}
+
 /* CALENDARIO */
 
 #calendario {
@@ -406,7 +431,12 @@ footer {
     flex-direction: column;
   }
 
-}
+
+/* mapa */
+ #mapa {
+    width: 400px;
+    height: 300px;
+  }
 
 /* descargas */
 .download{
