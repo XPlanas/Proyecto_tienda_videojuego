@@ -340,13 +340,10 @@ footer {
     text-align: center;
 }
 
-#redes-sociales {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
+
 
 #redes-sociales ul {
+    margin: 0px;
     width: 90%;
     display: flex;
     flex-direction: row;
