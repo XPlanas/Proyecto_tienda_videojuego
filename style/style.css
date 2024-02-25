@@ -437,6 +437,7 @@ footer {
     display: block;
     text-align: left;
   }
+  
 
     /* footer */ 
   #contenido-footer {
@@ -464,7 +465,12 @@ footer {
   #enlaces-redes {
     display: flex;
   }
-    
+
+  .content-trailer {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+  }  
   .content-trailer h1,
   .content-trailer p {
     font-size: calc(1rem + 0.3vw); 
@@ -476,8 +482,9 @@ footer {
   }
 
   .container-categories{
-    margin-left: 10%;
+    margin-left: 5%;
   }
+  
   .container-product{
     margin-left: 15%;
   }
