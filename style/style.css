@@ -15,7 +15,7 @@
     padding-top:50px;
 }
 /* MENÚ PRINCIPAL -------- */
-#menu-principal {
+/* #menu-principal {
   width: 100%;
 }
  
@@ -39,7 +39,7 @@ color: #42d9f7;
 
 #menu-principal .icon {
 display: none;
-}
+} */
 
 h1, h2 {
     font-family: 'Honk', system-ui;
