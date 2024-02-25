@@ -206,7 +206,8 @@ input[type="submit"]:hover{
 .elemento-trabajos {
   border-top: 1px solid #42d9f7;
   display: flex;
-  gap: 2rem;}
+  gap: 2rem;
+}
 
 .descripción {
   width: 65%;
@@ -222,7 +223,7 @@ input[type="submit"]:hover{
 
 .enviar-cv button {  
   padding: 1em 2rem;
-  background-color: var(--primary-color);
+  background-color:cyan;
   border-radius: 5px;
   border-style: none;
   font-size: larger;
