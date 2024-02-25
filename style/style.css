@@ -352,6 +352,7 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
+    /* menu */ 
   .topnav.responsive {
       position: relative;
       flex-direction: column;
@@ -366,16 +367,47 @@ footer {
     display: block;
     text-align: left;
   }
+
+    /* footer */ 
+  #contenido-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .elemento-footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+  }
+
+  #comunidad {
+    margin: auto;
+    margin-top: 1rem;
+  }
+
+  #enlaces-redes {
+    display: flex;
+  }
+    
   .content-trailer h1,
   .content-trailer p {
     font-size: calc(1rem + 0.3vw); 
   }
 
+/* trabajo */    
   .elemento-trabajos {
     flex-direction: column;
   }
 
 }
+
+/* descargas */
 .download{
   display: flex;
   justify-content: center;
