@@ -1,4 +1,4 @@
-
+es
 :root {
     --primary-color: #42D9F7;
     --background-color: #031426;
@@ -286,6 +286,31 @@ input[type="submit"]:hover{
   gap: 1rem;
 }
 
+/* LOCALIZADOR TIENDAS */
+
+.contenido-mapa {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+#codigopostal {
+  width: 300px;
+  line-height: 2rem ;
+}
+#mapa-buscar {
+  line-height: 2rem;
+  padding: 0.2rem 1rem;
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  border-style: none;
+}
+
+#mapa-buscar:hover {
+  background-color: rgb(255, 52, 245);
+}
+
 /* CALENDARIO */
 
 #calendario {
@@ -341,9 +366,10 @@ footer {
     text-align: center;
 }
 
-#enlaces-redes {
+#redes-sociales ul {
     width: 100%;
     display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
   }
 
@@ -395,6 +421,7 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
+    /* menu */ 
   .topnav.responsive {
       position: relative;
       flex-direction: column;
@@ -409,11 +436,40 @@ footer {
     display: block;
     text-align: left;
   }
+
+    /* footer */ 
+  #contenido-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .elemento-footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+  }
+
+  #comunidad {
+    margin: auto;
+    margin-top: 1rem;
+  }
+
+  #enlaces-redes {
+    display: flex;
+  }
+    
   .content-trailer h1,
   .content-trailer p {
     font-size: calc(1rem + 0.3vw); 
   }
 
+/* trabajo */    
   .elemento-trabajos {
     flex-direction: column;
   }
@@ -432,7 +488,14 @@ footer {
     min-width: 70%;
   }
 
-}
+
+/* mapa */
+ #mapa {
+    width: 400px;
+    height: 300px;
+  }
+
+/* descargas */
 .download{
   display: flex;
   justify-content: center;
