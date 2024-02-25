@@ -178,6 +178,38 @@ color: aliceblue;
     border-radius: 1rem;
 }
 
+/* TRABAJO */
+.elemento-trabajos {
+  border-top: 1px solid #42d9f7;
+  display: flex;
+  padding: 1rem;
+  gap: 2rem;
+}
+
+.descripción {
+  width: 65%;
+  padding: 2rem;
+}
+
+.enviar-cv {
+  width: 35%;
+  padding: 2rem;
+  display: flex;  
+  align-items: flex-end;
+}
+
+.enviar-cv button {  
+  padding: 1em 2rem;
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  border-style: none;
+  font-size: larger;
+}
+
+.enviar-cv button:hover {
+  background-color: yellow;
+}
+
 /* SOBRE NOSOTROS */
 #imagen-about img {
   width: 100%;
@@ -323,6 +355,10 @@ footer {
   .content-trailer h1,
   .content-trailer p {
     font-size: calc(1rem + 0.3vw); 
+  }
+
+  .elemento-trabajos {
+    flex-direction: column;
   }
 
 }
