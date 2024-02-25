@@ -1,4 +1,4 @@
-
+es
 :root {
     --primary-color: #42D9F7;
     --background-color: #031426;
@@ -298,7 +298,7 @@ footer {
     text-align: center;
 }
 
-#enlaces-redes ul {
+#redes-sociales ul {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
