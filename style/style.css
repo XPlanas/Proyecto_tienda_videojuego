@@ -179,12 +179,18 @@ color: aliceblue;
 }
 
 /* TRABAJO */
+.seccion-trabajos {
+  padding: 1rem;
+}
+
+.seccion-trabajos h2 {
+  font-size: 2rem;
+}
+
 .elemento-trabajos {
   border-top: 1px solid #42d9f7;
   display: flex;
-  padding: 1rem;
-  gap: 2rem;
-}
+  gap: 2rem;}
 
 .descripción {
   width: 65%;
