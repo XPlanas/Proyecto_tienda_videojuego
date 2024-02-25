@@ -491,7 +491,7 @@ footer {
     width: 400px;
     height: 300px;
   }
-
+}
 /* descargas */
 .download{
   display: flex;
@@ -502,4 +502,4 @@ footer {
   border-radius: 10px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-}
+
