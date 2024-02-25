@@ -49,27 +49,17 @@
           ><img src="imgs/lOGO BEASOFT.png" alt="logo Beasoft"
         /></a>
       </div>
-      <div class="elemento-cabecera">
-        <nav id="menu-principal">
-          <ul class="menu">
-            <li><a href="">Juegos</a></li>
-            <li><a href="">Descargas</a></li>
-            <li><a href="soporte.html">Soporte</a></li>
-            <li><a href="trabajo.html">Trabajo</a></li>
-            <li><a href="about.html">Sobre nosotros</a></li>
-            <li>
-              <a href="" id="usuario" class="elemento-cabecera"
-                ><i class="fa-solid fa-user"></i
-              ></a>
-            </li>
-            <li>
-              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i
-              ></a>
-            </li>
-          </ul>
-        </nav>
-      </div>
+       <div class="topnav" id="myTopnav">
+            <a href="#news">Juegos</a>
+            <a href="descargas.html">Descargas</a>
+            <a href="soporte.html">Soporte</a>
+            <a href="trabajo.html">Trabajo</a>
+            <a href="about.html">Sobre nosotros</a>
+            <a href="login.html" id="usuario" class="elemento-cabecera"><i class="fa-solid fa-user"></i></a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>          
+        </div>
     </header>
     <main>
         <h1>Consulta los eventos dónde encontrarnos</h1>
@@ -140,11 +130,11 @@
 
     <script>
       function myFunction() {
-        var x = document.getElementById("menu-principal");
-        if (x.className === "menu") {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
           x.className += " responsive";
         } else {
-          x.className = "menu";
+          x.className = "topnav";
         }
       }
     </script>
