@@ -205,6 +205,13 @@ color: aliceblue;
   gap: 1rem;
 }
 
+/* CALENDARIO */
+
+#calendario {
+  display: flex;
+  justify-content: center;
+}
+
 /* PÁGINAS POLÍTICAS PRIVACIDAD, TÉRMINOS, COOKIES */
 
 .texto-legal {
