@@ -114,8 +114,9 @@ body{
     grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     gap: 3rem;
 }
-.container-categories P{
-color: aliceblue;
+.container-categories h1{
+  text-align: left;
+  font-size: calc(1.5rem + 0.5vw);
 }
 .all-products{
   display: flex;
@@ -473,7 +474,17 @@ footer {
   .elemento-trabajos {
     flex-direction: column;
   }
+
+  .container-categories{
+    margin-left: 10%;
+  }
   .container-product{
+    margin-left: 15%;
+  }
+
+
+  
+  .container-sellproduct{
     flex-direction: column;
     align-items: center;
     height: 60rem;
